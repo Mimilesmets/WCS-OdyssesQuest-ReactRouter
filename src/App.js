@@ -18,7 +18,7 @@ export default function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/History">History</Nav.Link>
+              <Nav.Link href="/our-History">History</Nav.Link>
             </Nav>
 
           </Navbar.Collapse>
@@ -26,7 +26,7 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route component={<History />} path="/History">
+          <Route component={<History />} path="/our-History">
             <History />
           </Route>
           <Route component={<Home />} path="/">
